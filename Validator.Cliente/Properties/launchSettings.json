@@ -16,7 +16,11 @@
       "launchUrl": "swagger",
       "applicationUrl": "https://localhost:7222;http://localhost:5222",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DATABASE_NAME": "APIHash",
+        "COLLECTION_DATA": "DataImagen",
+        "COLLECTION_INFO": "InfoImagen",
+        "Connection_String": "mongodb://127.0.0.1:27017"
       }
     },
     "IIS Express": {
@@ -24,7 +28,11 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DATABASE_NAME": "APIHash",
+        "COLLECTION_DATA": "DataImagen",
+        "COLLECTION_INFO": "InfoImagen",
+        "Connection_String": "mongodb://127.0.0.1:27017"
       }
     }
   }

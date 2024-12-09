@@ -1,5 +1,7 @@
-﻿using Microsoft.OpenApi.Models;
+﻿#region References
+using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
+#endregion
 
 namespace Validator.Cliente.Models
 {
